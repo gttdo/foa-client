@@ -15,15 +15,15 @@ app.get("/about", (req, res) => {
   res.render("about");
 });
 
-app.get("/about/bw", (req, res) =>{
+app.get("/bw", (req, res) =>{
   res.render("about_bw");
 });
 
-app.get("/about/ah", (req, res) =>{
+app.get("/ah", (req, res) =>{
   res.render("about_ah");
 });
 
-app.get("/about/tb", (req, res) =>{
+app.get("/tb", (req, res) =>{
   res.render("about_tb");
 });
 
