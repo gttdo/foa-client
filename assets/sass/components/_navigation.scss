@@ -1,0 +1,48 @@
+.fal.fa-bars{
+  color: white;
+}
+
+.navbar-toggler-icon{
+  cursor: pointer;
+}
+
+.navbar{
+  background-color: #273C75;
+}
+
+.navbar_wrapper {
+  border-bottom: 1px solid #7F8FA6;
+  width: 95%;
+  padding: 1rem;
+}
+
+.nav-link{
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-right: 5rem;
+  text-transform: uppercase;
+}
+
+.nav-link:nth-child(3){
+  margin-right: 13rem;
+}
+
+/* Dropdown Menu */
+
+.dropdown-menu{
+  background-color: #F5F6FA;
+  border-radius: 0.3rem;
+  padding: 0;
+}
+.dropdown-item{
+  font-family: 'open sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.dropdown-item:hover{
+  background-color: #7F8FA6;
+  color: #F5F6FA;
+}

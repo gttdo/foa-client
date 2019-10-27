@@ -1,0 +1,105 @@
+/*MEDIA QUERIES*/
+/*mobile, landscape/portrait*/
+@media only screen and (max-width: 600px) {
+  /* Spotlight */
+  .spotlight {
+    height: 30rem;
+  }
+  .spotlight_headings {
+    transform: translate(-50%, 0%);
+    z-index: 2;
+  }
+
+  .spotlight_image {
+    display: none;
+  }
+  .spotlight_mobile-image{
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  /* About Page */
+  .about_person-details{
+    width: 100%;
+  }
+  .about_ah{
+    display: none;
+    padding: 0;
+    border: none;
+  }
+  .about_ah-mobile{
+    margin-top: 10rem;
+  }
+  /* Contact Page */
+  .contact_mobile{
+    margin-bottom: 3rem;
+  }
+  .contact_form-input-mobile{
+    margin-top: 1rem;
+  }
+}
+
+/*ipad 738*/
+@media only screen and (min-width: 601px) and (max-width: 768px){
+  /* Navbar */
+  .fal.fa-bars{
+    color: white;
+    font-size: 3rem;
+  }
+  .spotlight {
+    height: 30rem;
+  }
+  .spotlight_headings {
+    transform: translate(30%, 0%);
+    z-index: 2;
+  }
+
+  .spotlight_image {
+    display: none;
+  }
+  .spotlight_mobile-image{
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  /* About Page */
+  .about_ah-mobile{
+    display: none;
+  }
+  .about_person-details{
+    width: 100%;
+  }
+  .about_person-details-flip{
+    width: 100%;
+  }
+  /* Contact */
+  .contact_mobile{
+    margin-bottom: 3rem;
+  }
+}
+
+/*ipad pro 1024*/
+@media only screen and (min-width: 1024px) {
+  .spotlight_mobile-image{
+    display: none;
+  }
+  /* About Page */
+  .about_ah-mobile{
+    display: none;
+  }
+  .about_person-details{
+    width: 100%;
+  }
+  .about_person-details-flip{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+
+}
+
+@media only screen and (min-width: 1800px) {
+
+}

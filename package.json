@@ -1,0 +1,28 @@
+{
+  "name": "foa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/sass/main.scss assets/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gttdo/foa-client.git"
+  },
+  "author": "Gerardo Vinces",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gttdo/foa-client/issues"
+  },
+  "homepage": "https://github.com/gttdo/foa-client#readme",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {}
+}

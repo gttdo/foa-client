@@ -1,0 +1,52 @@
+/* Contact Page */
+.contact_header{
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 6.4rem;
+  line-height: 8.7rem;
+  border-bottom: 2px solid #273C75;
+  margin: 5rem auto 5rem;
+  padding: 0;
+}
+.contact_partner-wrapper{
+  width: 70%;
+  margin:auto;
+  text-align: center;
+}
+
+.contact_partner{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+.contact_info-p{
+  margin: 0;
+}
+.contact_form{
+  margin: 5rem auto;
+  width: 70%;
+}
+.contact_button{
+  background-color: #273C75;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 2px solid #7F8FA6;
+  padding: 1rem 5rem;
+  font-family: 'dosis', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+}
+.contact_button-wrapper{
+  text-align: right;
+}
+.form-input {
+  font-size: 1.5rem;
+  width: 100%;
+  padding: .5rem;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}

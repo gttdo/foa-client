@@ -1,0 +1,32 @@
+#home{
+  height: 100vh;
+}
+.font_18 {
+  font-size: 1.8rem;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+.u-text-left {
+  text-align: left;
+}
+
+.pt-14{
+  padding-top: 14rem;
+}
+
+/* Breadcrumb */
+.breadcrumb{
+    margin: 0;
+    background-color: #F5F6FA;
+    font-size: 13px;
+    padding-left: 2rem;
+}

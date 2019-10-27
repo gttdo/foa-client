@@ -1,0 +1,364 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+#home {
+  height: 100vh; }
+
+.font_18 {
+  font-size: 1.8rem; }
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #fff; }
+
+.u-text-center {
+  text-align: center; }
+
+.u-text-left {
+  text-align: left; }
+
+.pt-14 {
+  padding-top: 14rem; }
+
+/* Breadcrumb */
+.breadcrumb {
+  margin: 0;
+  background-color: #F5F6FA;
+  font-size: 13px;
+  padding-left: 2rem; }
+
+/* About Page */
+.about {
+  background-color: #F5F6FA;
+  padding-top: 12rem; }
+
+.about_container {
+  width: 85%;
+  margin: 0 auto;
+  border-bottom: 2px solid #7F8FA6;
+  padding-bottom: 9rem; }
+
+.about_left-flip {
+  margin-left: 0;
+  margin-right: 8.33%; }
+
+.about_image-bw {
+  width: 100%; }
+
+.about_right {
+  margin: 0; }
+
+.about_person-details {
+  width: 20%;
+  text-align: center;
+  border-bottom: 2px solid #273C75;
+  margin-bottom: 1.1rem; }
+
+.about_person-details-flip {
+  width: 20%;
+  text-align: center;
+  border-bottom: 2px solid #273C75;
+  margin-bottom: 1.1rem;
+  margin-left: auto; }
+
+.about_name {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3.6rem;
+  line-height: 4.9rem;
+  margin: 0; }
+
+.about_title {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.5rem; }
+
+.about_desc {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  text-align: justify; }
+
+.about_read-more,
+.about_read-more:hover {
+  color: #273C75; }
+
+/* Contact Page */
+.contact_header {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 6.4rem;
+  line-height: 8.7rem;
+  border-bottom: 2px solid #273C75;
+  margin: 5rem auto 5rem;
+  padding: 0; }
+
+.contact_partner-wrapper {
+  width: 70%;
+  margin: auto;
+  text-align: center; }
+
+.contact_partner {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem; }
+
+.contact_info-p {
+  margin: 0; }
+
+.contact_form {
+  margin: 5rem auto;
+  width: 70%; }
+
+.contact_button {
+  background-color: #273C75;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 2px solid #7F8FA6;
+  padding: 1rem 5rem;
+  font-family: 'dosis', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem; }
+
+.contact_button-wrapper {
+  text-align: right; }
+
+.form-input {
+  font-size: 1.5rem;
+  width: 100%;
+  padding: .5rem;
+  border-radius: 3px;
+  border: 1px solid #ccc; }
+
+/* Footer */
+.footer {
+  background-color: #273C75;
+  width: 100%;
+  height: 10rem; }
+
+.footer_text {
+  padding: 4rem;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.3rem;
+  display: block;
+  margin: 0; }
+
+/* Home Page Introduction */
+.intro_header {
+  margin: 8.8rem auto 3.8rem; }
+
+.intro_header-text {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 6.4rem;
+  line-height: 8.7rem;
+  text-align: center;
+  color: #333333; }
+
+.intro_content {
+  font-family: 'Dosis', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  margin-bottom: 3.6rem;
+  text-align: justify; }
+
+.intro_content:nth-child(3) {
+  margin-bottom: 11rem; }
+
+.fal.fa-bars {
+  color: white; }
+
+.navbar-toggler-icon {
+  cursor: pointer; }
+
+.navbar {
+  background-color: #273C75; }
+
+.navbar_wrapper {
+  border-bottom: 1px solid #7F8FA6;
+  width: 95%;
+  padding: 1rem; }
+
+.nav-link {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-right: 5rem;
+  text-transform: uppercase; }
+
+.nav-link:nth-child(3) {
+  margin-right: 13rem; }
+
+/* Dropdown Menu */
+.dropdown-menu {
+  background-color: #F5F6FA;
+  border-radius: 0.3rem;
+  padding: 0; }
+
+.dropdown-item {
+  font-family: 'open sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem; }
+
+.dropdown-item:hover {
+  background-color: #7F8FA6;
+  color: #F5F6FA; }
+
+/* Spotlight */
+.spotlight {
+  width: 100%;
+  background-color: #273C75; }
+
+.spotlight_container {
+  margin: auto;
+  width: 100%; }
+
+.spotlight_headings-wrapper {
+  position: relative;
+  text-align: center; }
+
+.spotlight_headings {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.spotlight_header,
+.spotlight_subheader {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #FFF; }
+
+.spotlight_subheader {
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.1rem;
+  font-weight: 300; }
+
+.fo_text {
+  font-size: 4.8rem;
+  line-height: 6.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 300; }
+
+.architects_text {
+  font-size: 7.2rem;
+  line-height: 8rem;
+  letter-spacing: 1rem;
+  font-weight: 300; }
+
+.spotlight_button {
+  background-color: #273C75;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 2px solid #7F8FA6;
+  padding: 1.4rem 4.2rem;
+  font-family: 'dosis', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.3rem; }
+
+.spotlight_image-wrapper {
+  padding: 5rem;
+  text-align: center; }
+
+.spotlight_image {
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+/*MEDIA QUERIES*/
+/*mobile, landscape/portrait*/
+@media only screen and (max-width: 600px) {
+  /* Spotlight */
+  .spotlight {
+    height: 30rem; }
+  .spotlight_headings {
+    transform: translate(-50%, 0%);
+    z-index: 2; }
+  .spotlight_image {
+    display: none; }
+  .spotlight_mobile-image {
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  /* About Page */
+  .about_person-details {
+    width: 100%; }
+  .about_ah {
+    display: none;
+    padding: 0;
+    border: none; }
+  .about_ah-mobile {
+    margin-top: 10rem; }
+  /* Contact Page */
+  .contact_mobile {
+    margin-bottom: 3rem; }
+  .contact_form-input-mobile {
+    margin-top: 1rem; } }
+
+/*ipad 738*/
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* Navbar */
+  .fal.fa-bars {
+    color: white;
+    font-size: 3rem; }
+  .spotlight {
+    height: 30rem; }
+  .spotlight_headings {
+    transform: translate(30%, 0%);
+    z-index: 2; }
+  .spotlight_image {
+    display: none; }
+  .spotlight_mobile-image {
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  /* About Page */
+  .about_ah-mobile {
+    display: none; }
+  .about_person-details {
+    width: 100%; }
+  .about_person-details-flip {
+    width: 100%; }
+  /* Contact */
+  .contact_mobile {
+    margin-bottom: 3rem; } }
+
+/*ipad pro 1024*/
+@media only screen and (min-width: 1024px) {
+  .spotlight_mobile-image {
+    display: none; }
+  /* About Page */
+  .about_ah-mobile {
+    display: none; }
+  .about_person-details {
+    width: 100%; }
+  .about_person-details-flip {
+    width: 100%; } }
