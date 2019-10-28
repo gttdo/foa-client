@@ -19,12 +19,11 @@
     "url": "https://github.com/gttdo/foa-client/issues"
   },
   "homepage": "https://github.com/gttdo/foa-client#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^2.7.1",
+    "express": "^4.17.1",
     "node-sass": "^4.13.0"
-  },
-  "dependencies": {
-    "express": "^4.17.1"
   }
 }
