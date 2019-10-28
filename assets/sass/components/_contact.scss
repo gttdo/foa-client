@@ -2,11 +2,10 @@
 .contact_header{
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 6.4rem;
   line-height: 8.7rem;
-  border-bottom: 2px solid #273C75;
+  border-bottom: 2px solid $primary-color-navy;
   margin: 5rem auto 5rem;
   padding: 0;
 }
@@ -18,7 +17,6 @@
 
 .contact_partner{
   font-family: 'Open Sans Condensed', sans-serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 2.4rem;
 }
@@ -30,15 +28,21 @@
   width: 70%;
 }
 .contact_button{
-  background-color: #273C75;
-  box-sizing: border-box;
+  background-color: $primary-color-navy;
+  color: $color-white-2;
+  border: 2px solid $color-white-2;
   border-radius: 3px;
-  border: 2px solid #7F8FA6;
-  padding: 1rem 5rem;
+  padding: .5rem 5rem;
   font-family: 'dosis', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 1.8rem;
+  transition: all .2s ease;
+
+  &:hover {
+    background-color: $color-white-2;
+    border: 2px solid $primary-color-navy;
+    color: $primary-color-navy;
+    padding: .5rem 5rem;
+  }
 }
 .contact_button-wrapper{
   text-align: right;
@@ -48,5 +52,5 @@
   width: 100%;
   padding: .5rem;
   border-radius: 3px;
-  border: 1px solid #ccc;
+  border: 1px solid $color-grey-2;
 }

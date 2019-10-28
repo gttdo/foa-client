@@ -40,9 +40,10 @@
   font-style: normal;
   font-weight: 300;
   font-size: 1.8rem;
-}
+  transition: all .1s ease;
 
-.dropdown-item:hover{
-  background-color: #7F8FA6;
-  color: #F5F6FA;
+  &:hover {
+    background-color: $color-white-1;
+    color: $color-white-3;
+  }
 }

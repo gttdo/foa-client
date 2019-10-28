@@ -1,7 +1,7 @@
 /* Spotlight */
 .spotlight {
   width: 100%;
-  background-color: #273C75;
+  background-color: $primary-color-navy;
 }
 
 .spotlight_container {
@@ -48,25 +48,35 @@
 
 
 .spotlight_button{
-  background-color: #273C75;
-  box-sizing: border-box;
+  background-color: $primary-color-navy;
   border-radius: 3px;
-  border: 2px solid #7F8FA6;
-  padding: 1.4rem 4.2rem;
+  border: 2.5px solid $color-white-1;
+  color: $color-white-2;
+  padding: 1rem 6rem;
   font-family: 'dosis', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 1.8rem;
-  line-height: 2.3rem;
+  font-weight: 500;
+  line-height: 5rem;
+  outline: none;
+  transition: all .2s ease;
+
+  &:hover {
+    background-color: $color-white-1;
+    color: $primary-color-navy;
+    font-weight: 500;
+  }
 }
 
+
 .spotlight_image-wrapper {
-  padding: 5rem;
+  width: 100%;
   text-align: center;
 }
 
 .spotlight_image {
   width: 100%;
+  margin: 3rem auto;
   background-size: contain;
   background-repeat: no-repeat;
+  border-radius: 3px;
 }

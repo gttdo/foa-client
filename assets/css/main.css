@@ -11,11 +11,17 @@ html {
 body {
   box-sizing: border-box; }
 
-#home {
-  height: 100vh; }
+.intro_header-text {
+  margin: 2rem auto; }
+
+.font_13 {
+  font-size: 1.3rem; }
 
 .font_18 {
   font-size: 1.8rem; }
+
+#home {
+  height: 100vh; }
 
 a,
 a:hover {
@@ -37,6 +43,11 @@ a:hover {
   background-color: #F5F6FA;
   font-size: 13px;
   padding-left: 2rem; }
+
+.bold {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
 
 /* About Page */
 .about {
@@ -99,11 +110,41 @@ a:hover {
 .about_read-more:hover {
   color: #273C75; }
 
+.blog_container {
+  margin: auto; }
+  .blog_container-header {
+    margin: auto;
+    display: block; }
+  .blog_container-headings {
+    display: block;
+    margin: 0 16rem; }
+    .blog_container-headings .blog_title {
+      margin: 0 auto 1rem; }
+    .blog_container-headings .blog_date {
+      display: block;
+      font-size: 1.3rem; }
+    .blog_container-headings .blog_author {
+      display: block;
+      font-size: 1.3rem; }
+  .blog_container-image {
+    margin: auto; }
+    .blog_container-image .blog_image {
+      width: 70%;
+      background-size: cover;
+      background-position: center;
+      margin: 2rem auto; }
+  .blog_container-content {
+    width: 68%;
+    margin: 3rem auto 5rem; }
+    .blog_container-content .blog_link {
+      color: #333333; }
+      .blog_container-content .blog_link:hover {
+        color: #808080; }
+
 /* Contact Page */
 .contact_header {
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 6.4rem;
   line-height: 8.7rem;
@@ -118,7 +159,6 @@ a:hover {
 
 .contact_partner {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 2.4rem; }
 
@@ -131,14 +171,18 @@ a:hover {
 
 .contact_button {
   background-color: #273C75;
-  box-sizing: border-box;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
   border-radius: 3px;
-  border: 2px solid #7F8FA6;
-  padding: 1rem 5rem;
+  padding: .5rem 5rem;
   font-family: 'dosis', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  transition: all .2s ease; }
+  .contact_button:hover {
+    background-color: #FFFFFF;
+    border: 2px solid #273C75;
+    color: #273C75;
+    padding: .5rem 5rem; }
 
 .contact_button-wrapper {
   text-align: right; }
@@ -148,7 +192,7 @@ a:hover {
   width: 100%;
   padding: .5rem;
   border-radius: 3px;
-  border: 1px solid #ccc; }
+  border: 1px solid #cccccc; }
 
 /* Footer */
 .footer {
@@ -178,16 +222,17 @@ a:hover {
   text-align: center;
   color: #333333; }
 
+.intro_content-wrapper {
+  width: 85%;
+  margin: auto; }
+
 .intro_content {
   font-family: 'Dosis', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 1.8rem;
-  line-height: 2.3rem;
-  margin-bottom: 3.6rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
   text-align: justify; }
 
-.intro_content:nth-child(3) {
+.intro_content:nth-child(4) {
   margin-bottom: 11rem; }
 
 .fal.fa-bars {
@@ -224,11 +269,11 @@ a:hover {
   font-family: 'open sans Condensed', sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 1.8rem; }
-
-.dropdown-item:hover {
-  background-color: #7F8FA6;
-  color: #F5F6FA; }
+  font-size: 1.8rem;
+  transition: all .1s ease; }
+  .dropdown-item:hover {
+    background-color: #7F8FA6;
+    color: #F5F6FA; }
 
 /* Spotlight */
 .spotlight {
@@ -274,24 +319,31 @@ a:hover {
 
 .spotlight_button {
   background-color: #273C75;
-  box-sizing: border-box;
   border-radius: 3px;
-  border: 2px solid #7F8FA6;
-  padding: 1.4rem 4.2rem;
+  border: 2.5px solid #7F8FA6;
+  color: #FFFFFF;
+  padding: 1rem 6rem;
   font-family: 'dosis', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 1.8rem;
-  line-height: 2.3rem; }
+  font-weight: 500;
+  line-height: 5rem;
+  outline: none;
+  transition: all .2s ease; }
+  .spotlight_button:hover {
+    background-color: #7F8FA6;
+    color: #273C75;
+    font-weight: 500; }
 
 .spotlight_image-wrapper {
-  padding: 5rem;
+  width: 100%;
   text-align: center; }
 
 .spotlight_image {
   width: 100%;
+  margin: 3rem auto;
   background-size: contain;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  border-radius: 3px; }
 
 /*MEDIA QUERIES*/
 /*mobile, landscape/portrait*/

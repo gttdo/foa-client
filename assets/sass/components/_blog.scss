@@ -1,0 +1,47 @@
+.blog_container {
+  margin: auto;
+
+  &-header {
+    margin: auto;
+    display: block;
+  }
+
+  &-headings {
+    display: block;
+    margin: 0 16rem;
+    .blog_title {
+      margin: 0 auto 1rem;
+    }
+    .blog_date {
+      display: block;
+      font-size: 1.3rem;
+    }
+    .blog_author {
+      display: block;
+      font-size: 1.3rem;
+    }
+  }
+
+  &-image {
+    margin: auto;
+
+    .blog_image {
+      width: 70%;
+      background-size: cover;
+      background-position: center;
+      margin: 2rem auto;
+    }
+  }
+
+  &-content {
+    width: 68%;
+    margin: 3rem auto 5rem;
+    .blog_link {
+      color: $color-black-2;
+
+      &:hover {
+        color: $color-grey-1;
+      }
+    }
+  }
+}
