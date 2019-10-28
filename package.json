@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
     "build-css": "node-sass --include-path scss assets/sass/main.scss assets/css/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
