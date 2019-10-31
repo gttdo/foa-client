@@ -9,7 +9,9 @@ html {
   font-size: 62.5%; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300; }
 
 .intro_header-text {
   margin: 2rem auto; }
@@ -344,6 +346,24 @@ a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 3px; }
+
+.serviceTwo,
+.serviceThree {
+  margin-top: 6rem; }
+
+.serviceThree {
+  margin-bottom: 6rem; }
+
+.row_break {
+  border-left: 0.5rem solid #273C75; }
+
+.service {
+  font-weight: 300;
+  font-family: "Open Sans Condensed", sans-serif; }
+  .service_title-text {
+    font-size: 6.4rem; }
+  .service_description-text {
+    font-size: 2.4rem; }
 
 /*MEDIA QUERIES*/
 /*mobile, landscape/portrait*/

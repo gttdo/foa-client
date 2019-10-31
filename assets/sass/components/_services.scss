@@ -1,0 +1,25 @@
+.serviceTwo,
+.serviceThree{
+  margin-top: 6rem;
+}
+.serviceThree{
+  margin-bottom: 6rem;
+}
+.row_break{
+  border-left: 0.5rem solid $primary-color-navy;
+}
+.service {
+  font-weight: 300;
+  font-family: "Open Sans Condensed", sans-serif;
+  &_title {
+    &-text {
+      font-size: 6.4rem;
+    }
+  }
+
+  &_description {
+    &-text {
+      font-size: 2.4rem;
+    }
+  }
+}
