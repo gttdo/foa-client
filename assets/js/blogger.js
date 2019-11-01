@@ -1,3 +1,6 @@
+
+console.log("connected");
+
 function myFunction(){
 
 	document.getElementById('content').innerHTML = "";
