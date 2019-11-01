@@ -13,13 +13,13 @@ function myFunction(){
 		dataType: "json",
 		type: 'GET',
 
-success: function(data) {
-			for(var i = 0; i < data.items.length; i++){
-				content.innerHTML += "<h1 class='blogTitle'>" + data.items[i].title + "</h1>"
-				content.innerHTML += "<h3 class='blogContent'>" + data.items[i].content + "</h3>"
-				console.log(data.items[i]);
+		success: function(data) {
+			// for(var i = 0; i < data.items.length; i++){
+			// 	content.innerHTML += "<h1 class='blogTitle'>" + data.items[i].title + "</h1>"
+			// 	content.innerHTML += "<h3 class='blogContent'>" + data.items[i].content + "</h3>"
+			// 	console.log(data.items[i]);
+			content.innerHTML = data.items.title;
 
 			}
-		},
 	});
 }
