@@ -112,36 +112,16 @@ a:hover {
 .about_read-more:hover {
   color: #273C75; }
 
+.blog_image {
+  width: 75%; }
+  .blog_image-wrapper {
+    text-align: center; }
+
 .blog_container {
   margin: auto; }
   .blog_container-header {
     margin: auto;
     display: block; }
-  .blog_container-headings {
-    display: block;
-    margin: 0 16rem; }
-    .blog_container-headings .blog_title {
-      margin: 0 auto 1rem; }
-    .blog_container-headings .blog_date {
-      display: block;
-      font-size: 1.3rem; }
-    .blog_container-headings .blog_author {
-      display: block;
-      font-size: 1.3rem; }
-  .blog_container-image {
-    margin: auto; }
-    .blog_container-image .blog_image {
-      width: 70%;
-      background-size: cover;
-      background-position: center;
-      margin: 2rem auto; }
-  .blog_container-content {
-    width: 68%;
-    margin: 3rem auto 5rem; }
-    .blog_container-content .blog_link {
-      color: #333333; }
-      .blog_container-content .blog_link:hover {
-        color: #808080; }
 
 /* Contact Page */
 .contact_header {
