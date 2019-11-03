@@ -1,10 +1,31 @@
-.serviceTwo,
-.serviceThree{
-  margin-top: 6rem;
+.service-container {
+  position: relative;
+  &-vector1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 40%;
+  }
+  &-vector2 {
+    position: absolute;
+    bottom: 9rem;
+    right: 0;
+    z-index: -1;
+    width: 40%;
+  }
 }
-.serviceThree{
-  margin-bottom: 6rem;
-}
+
+.service-two,
+.service-three {
+    margin-top: 6rem;
+  }
+
+.service-three {
+    padding-bottom: 6rem;
+  }
+
+
 .row_break{
   border-left: 0.5rem solid $primary-color-navy;
 }

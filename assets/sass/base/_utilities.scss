@@ -6,7 +6,7 @@
 a,
 a:hover {
   text-decoration: none;
-  color: #fff;
+  color: $color-white-2;
 }
 
 .u-text-center {
@@ -24,9 +24,16 @@ a:hover {
 /* Breadcrumb */
 .breadcrumb{
     margin: 0;
-    background-color: #F5F6FA;
-    font-size: 13px;
+    background-color: $color-white-3;
+    font-size: 2rem;
     padding-left: 2rem;
+    &-about{
+      color: $primary-color-navy;
+      &:hover{
+        text-decoration: underline;
+        color: $primary-color-navy;
+      }
+    }
 }
 
 .bold {

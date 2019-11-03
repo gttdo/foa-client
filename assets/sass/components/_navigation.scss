@@ -13,7 +13,6 @@
 .navbar_wrapper {
   border-bottom: 1px solid #7F8FA6;
   width: 95%;
-  padding: 1rem;
 }
 
 .nav-link{
@@ -22,6 +21,11 @@
   color: #ffffff;
   margin-right: 5rem;
   text-transform: uppercase;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.5s ease;
+  &:hover{
+    border-bottom: 3px solid $color-white-2;
+  }
 }
 
 .nav-link:nth-child(3){

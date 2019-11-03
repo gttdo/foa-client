@@ -1,0 +1,33 @@
+.page {
+  position: relative;
+  padding: 0;
+  &-header {
+    margin: 0 auto 3.8rem;
+    padding-top: 5rem;
+    &-text {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 6.4rem;
+      line-height: 8.7rem;
+      text-align: center;
+      color: #333333;
+    }
+  }
+
+  &-content {
+    width: 63%;
+    margin: auto;
+
+    &-p {
+      font-family: 'Dosis', sans-serif;
+      font-size: 2rem;
+      line-height: 3.5rem;
+      text-align: justify;
+
+      &:nth-child(4) {
+        margin-bottom: 11rem;
+      }
+    }
+  }
+}

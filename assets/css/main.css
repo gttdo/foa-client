@@ -14,7 +14,8 @@ body {
   font-weight: 300; }
 
 .intro_header-text {
-  margin: 2rem auto; }
+  margin: 0 auto;
+  padding: 6rem 0 3rem; }
 
 .font_13 {
   font-size: 1.3rem; }
@@ -28,7 +29,7 @@ body {
 a,
 a:hover {
   text-decoration: none;
-  color: #fff; }
+  color: #FFFFFF; }
 
 .u-text-center {
   text-align: center; }
@@ -43,8 +44,13 @@ a:hover {
 .breadcrumb {
   margin: 0;
   background-color: #F5F6FA;
-  font-size: 13px;
+  font-size: 2rem;
   padding-left: 2rem; }
+  .breadcrumb-about {
+    color: #273C75; }
+    .breadcrumb-about:hover {
+      text-decoration: underline;
+      color: #273C75; }
 
 .bold {
   font-weight: 600;
@@ -191,31 +197,30 @@ a:hover {
   display: block;
   margin: 0; }
 
-/* Home Page Introduction */
-.intro_header {
-  margin: 8.8rem auto 3.8rem; }
-
-.intro_header-text {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 6.4rem;
-  line-height: 8.7rem;
-  text-align: center;
-  color: #333333; }
-
-.intro_content-wrapper {
-  width: 85%;
-  margin: auto; }
-
-.intro_content {
-  font-family: 'Dosis', sans-serif;
-  font-size: 2rem;
-  line-height: 2.5rem;
-  text-align: justify; }
-
-.intro_content:nth-child(4) {
-  margin-bottom: 11rem; }
+.page {
+  position: relative;
+  padding: 0; }
+  .page-header {
+    margin: 0 auto 3.8rem;
+    padding-top: 5rem; }
+    .page-header-text {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 6.4rem;
+      line-height: 8.7rem;
+      text-align: center;
+      color: #333333; }
+  .page-content {
+    width: 63%;
+    margin: auto; }
+    .page-content-p {
+      font-family: 'Dosis', sans-serif;
+      font-size: 2rem;
+      line-height: 3.5rem;
+      text-align: justify; }
+      .page-content-p:nth-child(4) {
+        margin-bottom: 11rem; }
 
 .fal.fa-bars {
   color: white; }
@@ -228,15 +233,18 @@ a:hover {
 
 .navbar_wrapper {
   border-bottom: 1px solid #7F8FA6;
-  width: 95%;
-  padding: 1rem; }
+  width: 95%; }
 
 .nav-link {
   font-family: 'Dosis', sans-serif;
   font-size: 1.6rem;
   color: #ffffff;
   margin-right: 5rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.5s ease; }
+  .nav-link:hover {
+    border-bottom: 3px solid #FFFFFF; }
 
 .nav-link:nth-child(3) {
   margin-right: 13rem; }
@@ -327,12 +335,27 @@ a:hover {
   background-repeat: no-repeat;
   border-radius: 3px; }
 
-.serviceTwo,
-.serviceThree {
+.service-container {
+  position: relative; }
+  .service-container-vector1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 40%; }
+  .service-container-vector2 {
+    position: absolute;
+    bottom: 9rem;
+    right: 0;
+    z-index: -1;
+    width: 40%; }
+
+.service-two,
+.service-three {
   margin-top: 6rem; }
 
-.serviceThree {
-  margin-bottom: 6rem; }
+.service-three {
+  padding-bottom: 6rem; }
 
 .row_break {
   border-left: 0.5rem solid #273C75; }
@@ -360,6 +383,8 @@ a:hover {
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat; }
+  .page-content {
+    width: 80%; }
   /* About Page */
   .about_person-details {
     width: 100%; }
