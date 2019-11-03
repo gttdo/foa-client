@@ -7,19 +7,19 @@
 }
 
 .navbar{
-  background-color: #273C75;
+  background-color: $primary-color-navy;
 }
 
 .navbar_wrapper {
-  border-bottom: 1px solid #7F8FA6;
-  width: 95%;
+  height:7rem;
 }
 
 .nav-link{
   font-family: 'Dosis', sans-serif;
   font-size: 1.6rem;
-  color: #ffffff;
+  color: $color-white-2;
   margin-right: 5rem;
+  padding: 2.8rem;
   text-transform: uppercase;
   border-bottom: 3px solid transparent;
   transition: border-bottom 0.5s ease;
@@ -31,11 +31,14 @@
 .nav-link:nth-child(3){
   margin-right: 13rem;
 }
-
+.nav-item{
+  margin: 0;
+  padding: 0;
+}
 /* Dropdown Menu */
 
 .dropdown-menu{
-  background-color: #F5F6FA;
+  background-color: $color-white-3;
   border-radius: 0.3rem;
   padding: 0;
 }
@@ -50,4 +53,9 @@
     background-color: $color-white-1;
     color: $color-white-3;
   }
+}
+
+hr{
+  margin: 0;
+  padding: 0;
 }

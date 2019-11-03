@@ -1,13 +1,13 @@
 /* About Page */
 .about{
-  background-color: #F5F6FA;
+  background-color: $color-white-3;
   padding-top: 12rem;
 }
 
 .about_container {
   width: 85%;
   margin: 0 auto;
-  border-bottom: 2px solid #7F8FA6;
+  border-bottom: 2px solid $color-white-1;
   padding-bottom: 9rem;
 }
 
@@ -26,16 +26,16 @@
 }
 
 .about_person-details {
-  width: 20%;
+  width: 15%;
   text-align: center;
-  border-bottom: 2px solid #273C75;
+  border-bottom: 2px solid $primary-color-navy;
   margin-bottom: 1.1rem;
 }
 
 .about_person-details-flip {
   width: 20%;
   text-align: center;
-  border-bottom: 2px solid #273C75;
+  border-bottom: 2px solid $primary-color-navy;
   margin-bottom: 1.1rem;
   margin-left: auto;
 }
@@ -68,5 +68,5 @@
 
 .about_read-more,
 .about_read-more:hover{
-  color: #273C75;
+  color: $primary-color-navy;
 }

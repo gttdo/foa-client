@@ -21,31 +21,10 @@
   transform: translate(-50%, -50%);
 }
 
-.spotlight_header,
-.spotlight_subheader {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #FFF;
+.spotlight_logo{
+  width: 95%;
+  padding-bottom: 4rem;
 }
-
-.spotlight_subheader {
-  font-size: 2.4rem;
-  line-height: 3.3rem;
-  letter-spacing: 0.1rem;
-  font-weight: 300;
-}
-.fo_text {
-  font-size: 4.8rem;
-  line-height: 6.5rem;
-  letter-spacing: 0.2rem;
-  font-weight: 300;
-}
-.architects_text {
-  font-size: 7.2rem;
-  line-height: 8rem;
-  letter-spacing: 1rem;
-  font-weight: 300;
-}
-
 
 .spotlight_button{
   background-color: $primary-color-navy;
