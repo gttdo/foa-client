@@ -132,6 +132,21 @@ a:hover {
     display: block; }
 
 /* Contact Page */
+.contact {
+  position: relative; }
+  .contact-vector1 {
+    position: absolute;
+    top: 68rem;
+    left: 0;
+    z-index: -1;
+    width: 30%; }
+  .contact-vector2 {
+    position: absolute;
+    bottom: 9rem;
+    right: 0;
+    z-index: -1;
+    width: 40%; }
+
 .contact_header {
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -305,16 +320,16 @@ hr {
 
 .spotlight_logo {
   width: 95%;
-  padding-bottom: 4rem; }
+  padding-bottom: 7rem; }
 
 .spotlight_button {
   background-color: #273C75;
   border-radius: 3px;
-  border: 2.5px solid #7F8FA6;
+  border: 1.5px solid #7F8FA6;
   color: #FFFFFF;
   padding: 1rem 6rem;
   font-family: 'dosis', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   font-weight: 500;
   line-height: 5rem;
   outline: none;

@@ -1,4 +1,21 @@
 /* Contact Page */
+.contact {
+  position: relative;
+  &-vector1 {
+    position: absolute;
+    top: 68rem;
+    left: 0;
+    z-index: -1;
+    width: 30%;
+  }
+  &-vector2 {
+    position: absolute;
+    bottom: 9rem;
+    right: 0;
+    z-index: -1;
+    width: 40%;
+  }
+}
 .contact_header{
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
