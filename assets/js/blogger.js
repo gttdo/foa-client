@@ -25,6 +25,9 @@ success: function(data) {
 				content.innerHTML += "<h3 class='blogAuthor'>" + data.items[i].author.displayName + "</h3>"
 				content.innerHTML += "<h3 class='blogPublished'>" + date + "</h3>"
         content.innerHTML += "<p class='blogContent'>" + data.items[i].content + "</p>"
+				content.innerHTML += "<br>"
+				content.innerHTML += "<br>"
+				content.innerHTML += "<hr class='blog_divider'>"
 			}
 		},
 	});

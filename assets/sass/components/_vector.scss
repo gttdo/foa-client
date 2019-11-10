@@ -1,0 +1,54 @@
+.vector_top {
+
+  &-home,
+  &-services,
+  &-blog,
+  &-contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 25%;
+  }
+
+  &-about,
+  &-bw,
+  &-ah,
+  &-tb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 25%;
+  }
+}
+
+.vector_bottom {
+
+  &-about,
+  &-bw,
+  &-ah,
+  &-tb,
+  &-blog{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+  }
+
+  &-services{
+    position: absolute;
+    bottom: 4.6%;
+    right: -0.01%;
+    overflow: hidden;
+    width: 25%;
+  }
+
+  &-contact {
+    position: absolute;
+    bottom: -6.7%;
+    right: -.02%;
+    overflow: hidden;
+    width: 25%;
+  }
+}

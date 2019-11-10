@@ -1,19 +1,6 @@
 .service-container {
   position: relative;
-  &-vector1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 40%;
-  }
-  &-vector2 {
-    position: absolute;
-    bottom: 9rem;
-    right: 0;
-    z-index: -1;
-    width: 40%;
-  }
+
 }
 
 .service-two,

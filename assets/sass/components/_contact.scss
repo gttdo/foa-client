@@ -1,20 +1,7 @@
 /* Contact Page */
 .contact {
   position: relative;
-  &-vector1 {
-    position: absolute;
-    top: 68rem;
-    left: 0;
-    z-index: -1;
-    width: 30%;
-  }
-  &-vector2 {
-    position: absolute;
-    bottom: 9rem;
-    right: 0;
-    z-index: -1;
-    width: 40%;
-  }
+
 }
 .contact_header{
   text-align: center;
@@ -23,8 +10,8 @@
   font-size: 6.4rem;
   line-height: 8.7rem;
   border-bottom: 2px solid $primary-color-navy;
-  margin: 5rem auto 5rem;
-  padding: 0;
+  margin: 0 auto 5rem;
+  padding-top: 5rem ;
 }
 .contact_partner-wrapper{
   width: 70%;

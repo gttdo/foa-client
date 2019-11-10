@@ -1,19 +1,28 @@
 .blog {
+  position: relative;
   &_image {
     &-wrapper{
       text-align: center;
+      margin: 3rem auto;
     }
     width: 75%;
   }
   &_container {
     margin: auto;
-    &-vector1{
-      width: 50%
-    }
 
     &-header {
       margin: auto;
       display: block;
     }
   }
+}
+
+.blogTitle{
+  font-weight: bold;
+  font-size: 5rem;
+  margin-top: 5rem;
+}
+
+.separator{
+  margin: 3rem auto;
 }

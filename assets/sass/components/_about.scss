@@ -2,20 +2,26 @@
 .about{
   background-color: $color-white-3;
   padding-top: 12rem;
+  position: relative;
 }
 
 .about_container {
   width: 85%;
   margin: 0 auto;
-  border-bottom: 2px solid $color-white-1;
   padding-bottom: 9rem;
+
+  &-about {
+    border-bottom: 2px solid $color-white-1;
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 9rem;
+  }
 }
 
 .about_left-flip {
   margin-left: 0;
   margin-right: 8.33%;
 }
-
 
 .about_image-bw {
   width: 100%;
