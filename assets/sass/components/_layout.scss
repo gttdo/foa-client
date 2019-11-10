@@ -12,12 +12,20 @@
       line-height: 8.7rem;
       text-align: center;
       color: #333333;
+
+      @include respond(phone) {
+        line-height: 7rem;
+      }
     }
   }
 
   &-content {
     width: 63%;
     margin: auto;
+
+    @include respond(phone) {
+      width: 80%;
+    }
 
     &-p {
       font-family: 'Dosis', sans-serif;

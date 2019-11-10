@@ -5,6 +5,8 @@
     height: 7rem;
   }
 
+
+
   &_link {
     font-family: 'Dosis', sans-serif;
     font-size: 1.6rem;
@@ -14,6 +16,10 @@
     text-transform: uppercase;
     border-bottom: 3px solid transparent;
     transition: border-bottom 0.5s ease;
+
+    @include respond(phone) {
+      padding: 0;
+    }
 
     &:hover {
       border-bottom: 3px solid $color-white-2;
@@ -29,9 +35,16 @@
     padding: 0;
   }
 
-  &-toggler-icon {
-    cursor: pointer;
+  &-toggler{
+
+
+
+    &-icon {
+      cursor: pointer;
+    }
   }
+
+
 }
 
 

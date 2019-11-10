@@ -14,6 +14,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
+    @include respond(phone) {
+      position: static;
+      transform: translate(0);
+      padding: 4rem 0;
+    }
+
     &-wrapper {
       position: relative;
       text-align: center;
@@ -23,6 +29,10 @@
   &_logo {
     width: 95%;
     padding-bottom: 7rem;
+
+    @include respond(phone) {
+      padding-bottom: 3rem;
+    }
   }
 
   &_button {
@@ -56,5 +66,10 @@
       width: 100%;
       text-align: center;
     }
+
+    @include respond(phone) {
+      display: none;
+    }
   }
+
 }

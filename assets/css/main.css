@@ -14,7 +14,12 @@ body {
   font-weight: 300; }
 
 .fal.fa-bars {
-  color: #7F8FA6; }
+  color: #7F8FA6;
+  outline: none; }
+  @media only screen and (max-width: 37.5em) {
+    .fal.fa-bars {
+      font-size: 2.5rem;
+      padding: .5rem 0; } }
 
 .intro_header-text {
   margin: 0 auto;
@@ -216,6 +221,9 @@ a:hover {
     font-size: 1.3rem;
     display: block;
     margin: 0; }
+    @media only screen and (max-width: 37.5em) {
+      .footer_text {
+        padding: 4rem 0; } }
 
 .page {
   position: relative;
@@ -231,9 +239,15 @@ a:hover {
       line-height: 8.7rem;
       text-align: center;
       color: #333333; }
+      @media only screen and (max-width: 37.5em) {
+        .page-header-text {
+          line-height: 7rem; } }
   .page-content {
     width: 63%;
     margin: auto; }
+    @media only screen and (max-width: 37.5em) {
+      .page-content {
+        width: 80%; } }
     .page-content-p {
       font-family: 'Dosis', sans-serif;
       font-size: 2rem;
@@ -255,6 +269,9 @@ a:hover {
     text-transform: uppercase;
     border-bottom: 3px solid transparent;
     transition: border-bottom 0.5s ease; }
+    @media only screen and (max-width: 37.5em) {
+      .navbar_link {
+        padding: 0; } }
     .navbar_link:hover {
       border-bottom: 3px solid #FFFFFF; }
     .navbar_link:nth-child(3) {
@@ -297,12 +314,20 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+    @media only screen and (max-width: 37.5em) {
+      .spotlight_headings {
+        position: static;
+        transform: translate(0);
+        padding: 4rem 0; } }
     .spotlight_headings-wrapper {
       position: relative;
       text-align: center; }
   .spotlight_logo {
     width: 95%;
     padding-bottom: 7rem; }
+    @media only screen and (max-width: 37.5em) {
+      .spotlight_logo {
+        padding-bottom: 3rem; } }
   .spotlight_button {
     background-color: #273C75;
     border-radius: 3px;
@@ -328,6 +353,9 @@ hr {
     .spotlight_image-wrapper {
       width: 100%;
       text-align: center; }
+    @media only screen and (max-width: 37.5em) {
+      .spotlight_image {
+        display: none; } }
 
 .service-container {
   position: relative; }
@@ -356,6 +384,9 @@ hr {
   left: 0;
   z-index: -1;
   width: 25%; }
+  @media only screen and (max-width: 37.5em) {
+    .vector_top-home, .vector_top-services, .vector_top-blog, .vector_top-contact {
+      width: 50%; } }
 
 .vector_top-about, .vector_top-bw, .vector_top-ah, .vector_top-tb {
   position: absolute;
@@ -363,12 +394,18 @@ hr {
   left: 0;
   z-index: 0;
   width: 25%; }
+  @media only screen and (max-width: 37.5em) {
+    .vector_top-about, .vector_top-bw, .vector_top-ah, .vector_top-tb {
+      width: 50%; } }
 
 .vector_bottom-about, .vector_bottom-bw, .vector_bottom-ah, .vector_bottom-tb, .vector_bottom-blog {
   position: absolute;
   bottom: 0;
   right: 0;
   width: 25%; }
+  @media only screen and (max-width: 37.5em) {
+    .vector_bottom-about, .vector_bottom-bw, .vector_bottom-ah, .vector_bottom-tb, .vector_bottom-blog {
+      width: 50%; } }
 
 .vector_bottom-services {
   position: absolute;
@@ -376,6 +413,9 @@ hr {
   right: -0.01%;
   overflow: hidden;
   width: 25%; }
+  @media only screen and (max-width: 37.5em) {
+    .vector_bottom-services {
+      width: 50%; } }
 
 .vector_bottom-contact {
   position: absolute;
@@ -383,75 +423,6 @@ hr {
   right: -.02%;
   overflow: hidden;
   width: 25%; }
-
-/*MEDIA QUERIES*/
-/*mobile, landscape/portrait*/
-@media only screen and (max-width: 600px) {
-  /* Spotlight */
-  .spotlight {
-    height: 30rem; }
-  .spotlight_headings {
-    transform: translate(-50%, 0%);
-    z-index: 2; }
-  .spotlight_image {
-    display: none; }
-  .spotlight_mobile-image {
-    width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat; }
-  .page-content {
-    width: 80%; }
-  /* About Page */
-  .about_person-details {
-    width: 100%; }
-  .about_ah {
-    display: none;
-    padding: 0;
-    border: none; }
-  .about_ah-mobile {
-    margin-top: 10rem; }
-  /* Contact Page */
-  .contact_mobile {
-    margin-bottom: 3rem; }
-  .contact_form-input-mobile {
-    margin-top: 1rem; } }
-
-/*ipad 738*/
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  /* Navbar */
-  .fal.fa-bars {
-    color: white;
-    font-size: 3rem; }
-  .spotlight {
-    height: 30rem; }
-  .spotlight_headings {
-    transform: translate(30%, 0%);
-    z-index: 2; }
-  .spotlight_image {
-    display: none; }
-  .spotlight_mobile-image {
-    width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat; }
-  /* About Page */
-  .about_ah-mobile {
-    display: none; }
-  .about_person-details {
-    width: 100%; }
-  .about_person-details-flip {
-    width: 100%; }
-  /* Contact */
-  .contact_mobile {
-    margin-bottom: 3rem; } }
-
-/*ipad pro 1024*/
-@media only screen and (min-width: 1024px) {
-  .spotlight_mobile-image {
-    display: none; }
-  /* About Page */
-  .about_ah-mobile {
-    display: none; }
-  .about_person-details {
-    width: 20%; }
-  .about_person-details-flip {
-    width: 15%; } }
+  @media only screen and (max-width: 37.5em) {
+    .vector_bottom-contact {
+      width: 50%; } }

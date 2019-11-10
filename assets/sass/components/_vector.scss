@@ -9,6 +9,10 @@
     left: 0;
     z-index: -1;
     width: 25%;
+
+    @include respond(phone) {
+      width: 50%;
+    }
   }
 
   &-about,
@@ -20,6 +24,10 @@
     left: 0;
     z-index: 0;
     width: 25%;
+
+    @include respond(phone) {
+      width: 50%;
+    }
   }
 }
 
@@ -34,6 +42,10 @@
     bottom: 0;
     right: 0;
     width: 25%;
+
+    @include respond(phone) {
+      width: 50%;
+    }
   }
 
   &-services{
@@ -42,6 +54,10 @@
     right: -0.01%;
     overflow: hidden;
     width: 25%;
+
+    @include respond(phone) {
+      width: 50%;
+    }
   }
 
   &-contact {
@@ -50,5 +66,9 @@
     right: -.02%;
     overflow: hidden;
     width: 25%;
+
+    @include respond(phone) {
+      width: 50%;
+    }
   }
 }

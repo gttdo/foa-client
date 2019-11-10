@@ -1,3 +1,9 @@
 .fal.fa-bars{
   color: $color-white-1;
+  outline: none;
+
+  @include respond(phone) {
+    font-size: 2.5rem;
+    padding: .5rem 0;
+  }
 }

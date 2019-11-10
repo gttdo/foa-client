@@ -12,5 +12,9 @@
     font-size: 1.3rem;
     display: block;
     margin: 0;
+
+    @include respond(phone) {
+      padding: 4rem 0;
+    }
   }
 }
