@@ -53,7 +53,10 @@ a:hover {
   margin: 0;
   background-color: #F5F6FA;
   font-size: 2rem;
-  padding-left: 2rem; }
+  padding-left: 2rem;
+  padding-bottom: 5rem; }
+  .breadcrumb-item {
+    z-index: 1; }
   .breadcrumb-about {
     color: #273C75; }
     .breadcrumb-about:hover {
@@ -68,13 +71,13 @@ a:hover {
 /* About Page */
 .about {
   background-color: #F5F6FA;
-  padding-top: 12rem;
   position: relative; }
 
 .about_container {
   width: 85%;
   margin: 0 auto;
-  padding-bottom: 9rem; }
+  padding-bottom: 9rem;
+  transition: 6s; }
   .about_container-about {
     border-bottom: 2px solid #7F8FA6;
     width: 85%;
@@ -92,7 +95,7 @@ a:hover {
   margin: 0; }
 
 .about_person-details {
-  width: 15%;
+  width: 20%;
   text-align: center;
   border-bottom: 2px solid #273C75;
   margin-bottom: 1.1rem; }

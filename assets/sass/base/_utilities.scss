@@ -27,6 +27,10 @@ a:hover {
     background-color: $color-white-3;
     font-size: 2rem;
     padding-left: 2rem;
+    padding-bottom: 5rem;
+    &-item{
+      z-index: 1;
+    }
     &-about{
       color: $primary-color-navy;
       &:hover{

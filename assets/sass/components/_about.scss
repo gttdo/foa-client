@@ -1,7 +1,6 @@
 /* About Page */
 .about{
   background-color: $color-white-3;
-  padding-top: 12rem;
   position: relative;
 }
 
@@ -9,6 +8,7 @@
   width: 85%;
   margin: 0 auto;
   padding-bottom: 9rem;
+  transition: 6s;
 
   &-about {
     border-bottom: 2px solid $color-white-1;
@@ -32,7 +32,7 @@
 }
 
 .about_person-details {
-  width: 15%;
+  width: 20%;
   text-align: center;
   border-bottom: 2px solid $primary-color-navy;
   margin-bottom: 1.1rem;
