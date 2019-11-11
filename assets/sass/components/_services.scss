@@ -22,6 +22,9 @@
   &_title {
     &-text {
       font-size: 6.4rem;
+      @include respond(phone){
+        font-size: 5rem;
+      }
     }
   }
 

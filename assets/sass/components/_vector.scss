@@ -10,6 +10,13 @@
     z-index: -1;
     width: 25%;
 
+
+    @include respond(tab-port){
+      width: 50%;
+    }
+    @include respond(tab-land){
+      width: 50%;
+    }
     @include respond(phone) {
       width: 50%;
     }
@@ -25,6 +32,14 @@
     z-index: 0;
     width: 25%;
 
+
+
+    @include respond(tab-land){
+      width: 50%;
+    }
+    @include respond(tab-port){
+      width: 50%;
+    }
     @include respond(phone) {
       width: 50%;
     }
@@ -43,6 +58,15 @@
     right: 0;
     width: 25%;
 
+
+
+    @include respond(tab-land){
+      width: 50%;
+      z-index: -1;
+    }
+    @include respond(tab-port){
+      width: 50%;
+    }
     @include respond(phone) {
       width: 50%;
     }
@@ -55,8 +79,17 @@
     overflow: hidden;
     width: 25%;
 
+
+    @include respond(tab-port){
+      width: 50%;
+      bottom: 3.2%;
+    }
     @include respond(phone) {
       width: 50%;
+      bottom: 2.7%;
+    }
+    @include respond(pixel2){
+      bottom: 2.9%;
     }
   }
 
@@ -67,8 +100,18 @@
     overflow: hidden;
     width: 25%;
 
+
+    @include respond(tab-land){
+      width: 50%;
+      bottom: -6%;
+    }
+
+    @include respond(tab-port){
+      width: 50%;
+    }
     @include respond(phone) {
       width: 50%;
+      bottom: -4.15%;
     }
   }
 }

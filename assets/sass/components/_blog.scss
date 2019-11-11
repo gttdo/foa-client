@@ -24,5 +24,14 @@
 }
 
 .separator{
+  text-align: center;
   margin: 3rem auto;
+  @include respond(phone){
+    text-align: left;
+  }
+}
+.separator  img{
+  @include respond(phone){
+    width: 100%;
+  }
 }

@@ -20,6 +20,10 @@ body {
     .fal.fa-bars {
       font-size: 2.5rem;
       padding: .5rem 0; } }
+  @media only screen and (max-width: 56.25em) {
+    .fal.fa-bars {
+      font-size: 3rem;
+      padding: 2rem 0 0.5rem; } }
 
 .intro_header-text {
   margin: 0 auto;
@@ -31,8 +35,9 @@ body {
 .font_18 {
   font-size: 1.8rem; }
 
-#home {
-  height: 100vh; }
+@media only screen and (max-width: 75em) {
+  #home {
+    position: relative; } }
 
 a,
 a:hover {
@@ -72,67 +77,106 @@ a:hover {
 .about {
   background-color: #F5F6FA;
   position: relative; }
-
-.about_container {
-  width: 85%;
-  margin: 0 auto;
-  padding-bottom: 9rem;
-  transition: 6s; }
-  .about_container-about {
-    border-bottom: 2px solid #7F8FA6;
+  .about_container {
     width: 85%;
     margin: 0 auto;
-    padding-bottom: 9rem; }
-
-.about_left-flip {
-  margin-left: 0;
-  margin-right: 8.33%; }
-
-.about_image-bw {
-  width: 100%; }
-
-.about_right {
-  margin: 0; }
-
-.about_person-details {
-  width: 20%;
-  text-align: center;
-  border-bottom: 2px solid #273C75;
-  margin-bottom: 1.1rem; }
-
-.about_person-details-flip {
-  width: 20%;
-  text-align: center;
-  border-bottom: 2px solid #273C75;
-  margin-bottom: 1.1rem;
-  margin-left: auto; }
-
-.about_name {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 3.6rem;
-  line-height: 4.9rem;
-  margin: 0; }
-
-.about_title {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 1.8rem;
-  line-height: 2.5rem; }
-
-.about_desc {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 2.4rem;
-  line-height: 3.3rem;
-  text-align: justify; }
-
-.about_read-more,
-.about_read-more:hover {
-  color: #273C75; }
+    padding-bottom: 9rem;
+    transition: 6s; }
+    .about_container-about {
+      border-bottom: 2px solid #7F8FA6;
+      width: 85%;
+      margin: 0 auto;
+      padding: 9rem; }
+      @media only screen and (max-width: 75em) {
+        .about_container-about {
+          padding: 7rem 0;
+          width: 100%; } }
+      @media only screen and (max-width: 56.25em) {
+        .about_container-about {
+          padding: 3rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .about_container-about {
+          padding: 3rem; } }
+  .about_name {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.6rem;
+    line-height: 4.9rem;
+    margin: 0; }
+  .about_title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.5rem; }
+  .about_right {
+    margin: 0; }
+  .about_left {
+    text-align: center; }
+    @media only screen and (max-width: 56.25em) {
+      .about_left {
+        margin: auto; } }
+  .about_left-flip {
+    margin-left: 0;
+    margin-right: 8.33%; }
+  .about_person-details {
+    width: 20%;
+    text-align: center;
+    border-bottom: 2px solid #273C75;
+    margin-bottom: 1.1rem; }
+    @media only screen and (max-width: 75em) {
+      .about_person-details {
+        margin: auto;
+        width: 50%; } }
+    @media only screen and (max-width: 56.25em) {
+      .about_person-details {
+        margin: auto;
+        width: 50%; } }
+    @media only screen and (max-width: 37.5em) {
+      .about_person-details {
+        width: 21rem; } }
+    .about_person-details-flip {
+      width: 20%;
+      text-align: center;
+      border-bottom: 2px solid #273C75;
+      margin-bottom: 1.1rem;
+      margin-left: auto; }
+      @media only screen and (max-width: 37.5em) {
+        .about_person-details-flip {
+          width: 100%; } }
+  .about_desc {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    text-align: justify; }
+  .about_image-bw {
+    width: 100%; }
+    @media only screen and (max-width: 56.25em) {
+      .about_image-bw {
+        width: 35%; } }
+  @media only screen and (max-width: 37.5em) {
+    .about_ah {
+      display: none; } }
+  @media only screen and (max-width: 75em) {
+    .about_ah {
+      display: block; } }
+  @media only screen and (max-width: 56.25em) {
+    .about_ah {
+      display: none; } }
+  @media only screen and (max-width: 75em) {
+    .about_ah-mobile {
+      display: none; } }
+  @media only screen and (max-width: 56.25em) {
+    .about_ah-mobile {
+      display: block; } }
+  @media only screen and (min-width: 112.5em) {
+    .about_ah-mobile {
+      display: none; } }
+  .about_read-more, .about_read-more:hover {
+    color: #273C75; }
 
 .blog {
   position: relative; }
@@ -153,7 +197,15 @@ a:hover {
   margin-top: 5rem; }
 
 .separator {
+  text-align: center;
   margin: 3rem auto; }
+  @media only screen and (max-width: 37.5em) {
+    .separator {
+      text-align: left; } }
+
+@media only screen and (max-width: 37.5em) {
+  .separator img {
+    width: 100%; } }
 
 /* Contact Page */
 .contact {
@@ -173,11 +225,20 @@ a:hover {
   width: 70%;
   margin: auto;
   text-align: center; }
+  @media only screen and (max-width: 75em) {
+    .contact_partner-wrapper {
+      width: 100%; } }
+  @media only screen and (max-width: 56.25em) {
+    .contact_partner-wrapper {
+      width: 100%; } }
 
 .contact_partner {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
   font-size: 2.4rem; }
+  @media only screen and (max-width: 37.5em) {
+    .contact_partner {
+      padding-bottom: 1.5rem; } }
 
 .contact_info-p {
   margin: 0; }
@@ -185,6 +246,9 @@ a:hover {
 .contact_form {
   margin: 5rem auto;
   width: 70%; }
+  @media only screen and (max-width: 75em) {
+    .contact_form {
+      width: 90%; } }
 
 .contact_button {
   background-color: #273C75;
@@ -210,6 +274,10 @@ a:hover {
   padding: .5rem;
   border-radius: 3px;
   border: 1px solid #cccccc; }
+
+@media only screen and (max-width: 37.5em) {
+  .input-mobile {
+    margin-bottom: 1rem; } }
 
 /* Footer */
 .footer {
@@ -248,6 +316,9 @@ a:hover {
   .page-content {
     width: 63%;
     margin: auto; }
+    @media only screen and (max-width: 56.25em) {
+      .page-content {
+        width: 80%; } }
     @media only screen and (max-width: 37.5em) {
       .page-content {
         width: 80%; } }
@@ -257,12 +328,20 @@ a:hover {
       line-height: 3.5rem;
       text-align: justify; }
       .page-content-p:nth-child(4) {
-        margin-bottom: 11rem; }
+        padding-bottom: 6rem; }
+        @media only screen and (max-width: 75em) {
+          .page-content-p:nth-child(4) {
+            font-size: 2.5rem;
+            padding-bottom: 30.2rem; } }
+        @media only screen and (max-width: 56.25em) {
+          .page-content-p:nth-child(4) {
+            padding-bottom: 5.7rem; } }
 
 .navbar {
   background-color: #273C75; }
-  .navbar_wrapper {
-    height: 7rem; }
+  @media only screen and (max-width: 37.5em) {
+    .navbar_wrapper {
+      padding: 1.5rem 0; } }
   .navbar_link {
     font-family: 'Dosis', sans-serif;
     font-size: 1.6rem;
@@ -272,16 +351,31 @@ a:hover {
     text-transform: uppercase;
     border-bottom: 3px solid transparent;
     transition: border-bottom 0.5s ease; }
+    @media only screen and (max-width: 56.25em) {
+      .navbar_link {
+        padding: 0.8rem; } }
     @media only screen and (max-width: 37.5em) {
       .navbar_link {
         padding: 0; } }
     .navbar_link:hover {
       border-bottom: 3px solid #FFFFFF; }
+      @media only screen and (max-width: 56.25em) {
+        .navbar_link:hover {
+          border-bottom: none; } }
+      @media only screen and (max-width: 75em) {
+        .navbar_link:hover {
+          border-bottom: none; } }
+      @media only screen and (max-width: 37.5em) {
+        .navbar_link:hover {
+          border-bottom: none; } }
     .navbar_link:nth-child(3) {
       margin-right: 13rem; }
   .navbar_item {
     margin: 0;
     padding: 0; }
+  @media only screen and (max-width: 56.25em) {
+    .navbar-toggler {
+      padding-bottom: 2rem; } }
   .navbar-toggler-icon {
     cursor: pointer; }
 
@@ -328,6 +422,14 @@ hr {
   .spotlight_logo {
     width: 95%;
     padding-bottom: 7rem; }
+    @media only screen and (max-width: 75em) {
+      .spotlight_logo {
+        width: 100%;
+        padding-bottom: 3rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .spotlight_logo {
+        width: 100%;
+        padding-bottom: 1rem; } }
     @media only screen and (max-width: 37.5em) {
       .spotlight_logo {
         padding-bottom: 3rem; } }
@@ -343,6 +445,13 @@ hr {
     line-height: 5rem;
     outline: none;
     transition: all .2s ease; }
+    @media only screen and (max-width: 75em) {
+      .spotlight_button {
+        font-size: 1.5rem;
+        padding: 1rem 4rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .spotlight_button {
+        padding: 1rem 2rem; } }
     .spotlight_button:hover {
       background-color: #7F8FA6;
       color: #273C75;
@@ -378,6 +487,9 @@ hr {
   font-family: "Open Sans Condensed", sans-serif; }
   .service_title-text {
     font-size: 6.4rem; }
+    @media only screen and (max-width: 37.5em) {
+      .service_title-text {
+        font-size: 5rem; } }
   .service_description-text {
     font-size: 2.4rem; }
 
@@ -387,6 +499,12 @@ hr {
   left: 0;
   z-index: -1;
   width: 25%; }
+  @media only screen and (max-width: 56.25em) {
+    .vector_top-home, .vector_top-services, .vector_top-blog, .vector_top-contact {
+      width: 50%; } }
+  @media only screen and (max-width: 75em) {
+    .vector_top-home, .vector_top-services, .vector_top-blog, .vector_top-contact {
+      width: 50%; } }
   @media only screen and (max-width: 37.5em) {
     .vector_top-home, .vector_top-services, .vector_top-blog, .vector_top-contact {
       width: 50%; } }
@@ -397,6 +515,12 @@ hr {
   left: 0;
   z-index: 0;
   width: 25%; }
+  @media only screen and (max-width: 75em) {
+    .vector_top-about, .vector_top-bw, .vector_top-ah, .vector_top-tb {
+      width: 50%; } }
+  @media only screen and (max-width: 56.25em) {
+    .vector_top-about, .vector_top-bw, .vector_top-ah, .vector_top-tb {
+      width: 50%; } }
   @media only screen and (max-width: 37.5em) {
     .vector_top-about, .vector_top-bw, .vector_top-ah, .vector_top-tb {
       width: 50%; } }
@@ -406,6 +530,13 @@ hr {
   bottom: 0;
   right: 0;
   width: 25%; }
+  @media only screen and (max-width: 75em) {
+    .vector_bottom-about, .vector_bottom-bw, .vector_bottom-ah, .vector_bottom-tb, .vector_bottom-blog {
+      width: 50%;
+      z-index: -1; } }
+  @media only screen and (max-width: 56.25em) {
+    .vector_bottom-about, .vector_bottom-bw, .vector_bottom-ah, .vector_bottom-tb, .vector_bottom-blog {
+      width: 50%; } }
   @media only screen and (max-width: 37.5em) {
     .vector_bottom-about, .vector_bottom-bw, .vector_bottom-ah, .vector_bottom-tb, .vector_bottom-blog {
       width: 50%; } }
@@ -416,9 +547,17 @@ hr {
   right: -0.01%;
   overflow: hidden;
   width: 25%; }
+  @media only screen and (max-width: 56.25em) {
+    .vector_bottom-services {
+      width: 50%;
+      bottom: 3.2%; } }
   @media only screen and (max-width: 37.5em) {
     .vector_bottom-services {
-      width: 50%; } }
+      width: 50%;
+      bottom: 2.7%; } }
+  @media only screen and (min-width: 25em) and (max-width: 27em) {
+    .vector_bottom-services {
+      bottom: 2.9%; } }
 
 .vector_bottom-contact {
   position: absolute;
@@ -426,6 +565,14 @@ hr {
   right: -.02%;
   overflow: hidden;
   width: 25%; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 75em) {
+    .vector_bottom-contact {
+      width: 50%;
+      bottom: -6%; } }
+  @media only screen and (max-width: 56.25em) {
     .vector_bottom-contact {
       width: 50%; } }
+  @media only screen and (max-width: 37.5em) {
+    .vector_bottom-contact {
+      width: 50%;
+      bottom: -4.15%; } }

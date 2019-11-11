@@ -4,6 +4,9 @@
   width: 100%;
   height: 10rem;
 
+  @include respond(tab-land){
+  }
+
   &_text {
     padding: 4rem;
     color: $color-white-2;

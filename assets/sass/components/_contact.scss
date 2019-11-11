@@ -17,12 +17,22 @@
   width: 70%;
   margin:auto;
   text-align: center;
+  @include respond(tab-land){
+    width: 100%;
+  }
+  @include respond(tab-port){
+    width: 100%;
+  }
+
 }
 
 .contact_partner{
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
   font-size: 2.4rem;
+  @include respond(phone){
+    padding-bottom: 1.5rem;
+  }
 }
 .contact_info-p{
   margin: 0;
@@ -30,6 +40,10 @@
 .contact_form{
   margin: 5rem auto;
   width: 70%;
+
+  @include respond(tab-land) {
+    width: 90%;
+  }
 }
 .contact_button{
   background-color: $primary-color-navy;
@@ -57,4 +71,12 @@
   padding: .5rem;
   border-radius: 3px;
   border: 1px solid $color-grey-2;
+}
+
+.input{
+  &-mobile{
+    @include respond(phone){
+        margin-bottom: 1rem;
+    }
+  }
 }

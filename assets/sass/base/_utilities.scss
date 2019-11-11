@@ -1,5 +1,8 @@
 #home{
-  height: 100vh;
+
+  @include respond(tab-land){
+    position: relative;
+  }
 }
 
 
