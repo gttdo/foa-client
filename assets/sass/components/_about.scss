@@ -116,30 +116,7 @@
     }
   }
 
-  &_ah{
-    @include respond(phone){
-      display: none;
-    }
-    @include respond(tab-land){
-      display: block;
-    }
-    @include respond(tab-port){
-      display: none;
-    }
 
-    &-mobile{
-      @include respond(tab-land){
-        display: none;
-      }
-      @include respond(tab-port){
-        display: block;
-      }
-
-      @include respond(big-desktop){
-        display: none;
-      }
-    }
-  }
 
   &_read {
     &-more,
@@ -148,5 +125,20 @@
     }
   }
 
+
+}
+
+.ah-desktop {
+  @include respond(tab-port) {
+    display: none;
+  }
+}
+
+.ah-mobile {
+  display: none;
+
+  @include respond(tab-port) {
+    display: block;
+  }
 
 }
