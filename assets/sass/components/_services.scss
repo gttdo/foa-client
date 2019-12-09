@@ -31,6 +31,14 @@
   &_description {
     &-text {
       font-size: 2.4rem;
+      &-indent{
+        text-indent:5%;
+        font-size: 2.4rem;
+      }
+      &-bulletPoint{
+        margin-left: 4rem;
+        font-size: 2.4rem;
+      }
     }
   }
 }

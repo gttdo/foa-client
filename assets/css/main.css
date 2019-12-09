@@ -483,6 +483,12 @@ hr {
         font-size: 5rem; } }
   .service_description-text {
     font-size: 2.4rem; }
+    .service_description-text-indent {
+      text-indent: 5%;
+      font-size: 2.4rem; }
+    .service_description-text-bulletPoint {
+      margin-left: 4rem;
+      font-size: 2.4rem; }
 
 .vector_top-home, .vector_top-services, .vector_top-blog, .vector_top-contact {
   position: absolute;
