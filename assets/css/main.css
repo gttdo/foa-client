@@ -35,6 +35,9 @@ body {
 .font_18 {
   font-size: 1.8rem; }
 
+.font_italic {
+  font-style: italic; }
+
 @media only screen and (max-width: 75em) {
   #home {
     position: relative; } }
