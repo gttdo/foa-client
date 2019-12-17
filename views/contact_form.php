@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['emailBtn'])) {
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "foa.blogger@gmail.com";
+    $email_to = "ahoster@foarchitects.com";
     $email_subject = "Family Office Architects Client Email";
     function died($error) {
         // your error code can go here

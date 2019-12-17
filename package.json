@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/gttdo/foa-client.git"
   },
-  "author": "Gerardo Vinces",
+  "author": "HexByte Labs",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gttdo/foa-client/issues"
