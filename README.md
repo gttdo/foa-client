@@ -34,3 +34,5 @@ npm install ejs express body-parser
 ```
 node app.js
 ```
+
+## For security reasons, please use a different API key using the email provided on the API documentation.
